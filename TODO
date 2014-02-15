@@ -1,0 +1,54 @@
+TODO LIST + CHANGELOG:
+Things with (-) by them aren't implemented.
+Things with (+) by them are finished.
+
+Version 19:
+ + Fix bug in Python script that would delete the last character in the ROM image's name when only the name of the image was entered. (e.g. 'coco3' instead of 'coco3.zip' or '~/coco/roms/coco3.zip')
+
+Version 18:
+ + Fix bug in Python script that wouldn't allow SDLMESS to open.
+ + Refined new versioning a bit.
+
+Version 17:
+ + Prefix all error or informational messages with "MESSYFRONT:".
+ + Optimize Python script a bit.
+ + Fix several bugs in Python script.
+ + Minor modification to version numbering system.
+
+Version 16:
+ + Create a little Python script to handle starting MESS.
+
+Version 15:
+ + Change the command to start MESS so that it places the rom at the beginning of the argument list.
+
+Version 14:
+ + Fix minor bugs in the Glade XML file.
+ + Produce an icon for MESSyFront.
+ + When installed, have MESSyFront produce a FreeDesktop (GNOME / KDE) menu item.
+ + Add icon to MESSyFront's title bar.
+ + Add icon to MESSyFront's About dialog.
+
+Version 13:
+ + Changed project direction (again?).
+ + Removed WIN32 support.
+
+Version 12:
+ + Bugfixes related to WIN32.
+ + Changed some arguments to intended variable constants.
+
+Version 11:
+ + Rewrite entire program using libGlade and Glib libraries.
+ + Comment code for readability.
+ + Use a preferences file for maintaining user's last choices.
+ + Allow for multiple floppy disk images.
+ + Allow user to display what command (with arguments) MESSyFront used to launch MESS.
+ + Add code for use with OSs other than Linux.
+
+Version 10:
+ + Rewrite entire codebase...
+ + ...Abandon for version 11.
+
+Version 1:
+ + Quickly produce working 'beta' version for testing and comments.
+
+Updated: November 22, 2007 at 12:46pm.

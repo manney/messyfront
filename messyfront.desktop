@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=0.24
+Encoding=UTF-8
+Name=MESSyFront
+Type=Application
+Comment=Front-end for the MESS emulator
+GenericName=MESSyFront
+Exec=messyfront
+Icon=/usr/share/pixmaps/messyfront/messyfront48.png
+Terminal=false
+Categories=Application;Emulator;Utility;
+GenericName[en_US]=MESSyFront
